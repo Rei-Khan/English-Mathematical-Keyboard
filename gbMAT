@@ -57,6 +57,8 @@ xkb_symbols "basic" {
     key <AB08> {	[     comma,        less,         U2234,                  U2264		  ]	};
     key <AB09> {	[     period,       greater,      U22C5,                  U2265	          ]	};
     key <AB10> {        [     slash,        question,     U00F7,                  questiondown    ]     };
-    
+
+    include "level3(ralt_switch)"
+
     // End alphanumeric section
 };
